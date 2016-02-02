@@ -10,6 +10,12 @@ public class Album {
     private String albumArtist;
     private String albumName;
 
+    public Album(Bitmap albumPhoto, String albumArtist, String albumName) {
+        this.albumPhoto = albumPhoto;
+        this.albumArtist = albumArtist;
+        this.albumName = albumName;
+    }
+
     public String getAlbumName() {
         return albumName;
     }
@@ -17,6 +23,7 @@ public class Album {
     public void setAlbumName(String albumName) {
         this.albumName = albumName;
     }
+
 
     public String getAlbumArtist() {
         return albumArtist;

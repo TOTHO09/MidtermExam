@@ -28,5 +28,6 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         // TODO: Perform logic operations here..
+
     }
 }
